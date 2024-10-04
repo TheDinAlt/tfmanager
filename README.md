@@ -7,6 +7,11 @@ tfmanager is easy-to-use python script to interaction with timeframes
 * support seconds (s), minutes (m), hours (h), days (d), weeks (w), months (M) and years (y) timeframes
 * support get time of start for all timeframe steps by ```throuth``` method
 * support get total seconds of timeframe by ```to_seconds``` method (not working for months and years timeframes)
+## Install
+You can install this repository by console:
+```
+git clone https://github.com/TheDinAlt/tfmanager.git
+```
 ## Quickstart
 ```python
 from datetime import datetime, timedelta
